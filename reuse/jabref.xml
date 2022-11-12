@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="org">
+      <map/>
+      <node name="jabref">
+        <map>
+          <entry key="bindings" value="ctrl+alt+A;ctrl+ENTER;ctrl+G;F7;alt+LEFT;ctrl+F8;alt+F8;ESCAPE;ESCAPE;Esc;ctrl+W;ctrl+alt+C;ctrl+shift+K;ctrl+alt+K;ctrl+shift+alt+K;ctrl+K;ctrl+shift+C;ctrl+shift+alt+T;ctrl+X;ctrl+MINUS;ctrl+0;DELETE;ctrl+E;ctrl+T;ctrl+shift+DOWN;ctrl+TAB;ctrl+PLUS;ctrl+shift+UP;ctrl+shift+TAB;ctrl+MINUS;ctrl+DOWN;ctrl+UP;shift+F7;alt+1;alt+RIGHT;F1;ctrl+I;ctrl+alt+I;ctrl+PLUS;alt+F7;ctrl+M;ctrl+shift+A;ctrl+shift+B;ctrl+N;ctrl+shift+N;ctrl+shift+I;ctrl+shift+M;ctrl+shift+T;ctrl+shift+P;ctrl+shift+R;ctrl+shift+U;F9;ctrl+PAGE_DOWN;alt+0;F3;F4;ctrl+shift+O;ctrl+O;ctrl+shift+L;ctrl+V;alt+S;shift+F9;ctrl+PAGE_UP;ctrl+shift+R;ctrl+L;ctrl+Q;ctrl+Y;ctrl+alt+O;ctrl+R;ctrl+shift+D;ctrl+alt+S;ctrl+S;ctrl+shift+S;ctrl+F;ctrl+shift+F;ctrl+A;HOME;END;ctrl+N;shift+DELETE;ctrl+shift+F7;alt+2;alt+3;ctrl+alt+shift+A;ctrl+Z;ctrl+shift+M;alt+4;F6"/>
+          <entry key="autoCompleteFields" value="title;keywords;editor;crossref;publisher;journal;related;author;entryset"/>
+          <entry key="pushToApplication" value="TeXstudio"/>
+          <entry key="mainWindowPosX" value="-7.199999809265137"/>
+          <entry key="mainWindowPosY" value="-7.199999809265137"/>
+          <entry key="mainWindowSizeX" value="1550.4000244140625"/>
+          <entry key="mainWindowSizeY" value="838.4000244140625"/>
+          <entry key="autoAssignGroup" value="true"/>
+          <entry key="groupEditGroupMembershipMode" value="false"/>
+          <entry key="windowMaximised" value="true"/>
+          <entry key="toolbarVisible" value="true"/>
+          <entry key="useOwner" value="false"/>
+          <entry key="overwriteOwner" value="false"/>
+          <entry key="useTimeStamp" value="false"/>
+          <entry key="overwriteTimeStamp" value="false"/>
+          <entry key="updateTimestamp" value="false"/>
+          <entry key="enforceLegalBibtexKey" value="true"/>
+          <entry key="memoryStickMode" value="true"/>
+          <entry key="confirmDelete" value="false"/>
+          <entry key="warnAboutDuplicatesInInspection" value="true"/>
+          <entry key="defaultOwner" value=""/>
+          <entry key="timeStampFormat" value="yyyy-MM-dd"/>
+          <entry key="timeStampField" value="timestamp"/>
+          <entry key="defaultEncoding" value="UTF-8"/>
+          <entry key="markImportedEntries" value="true"/>
+          <entry key="unmarkAllEntriesBeforeImporting" value="false"/>
+          <entry key="biblatexMode" value="false"/>
+          <entry key="useProxy" value="false"/>
+          <entry key="proxyHostname" value=""/>
+          <entry key="proxyPort" value="80"/>
+          <entry key="useProxyAuthentication" value="false"/>
+          <entry key="proxyUsername" value=""/>
+          <entry key="proxyPassword" value=""/>
+          <entry key="fileDirectory" value="D:\references"/>
+          <entry key="bibLocAsPrimaryDir" value="true"/>
+          <entry key="runAutomaticFileSearch" value="false"/>
+          <entry key="allowFileAutoOpenBrowse" value="true"/>
+          <entry key="useRegExpSearch" value="false"/>
+          <entry key="autolinkExactKeyOnly" value="false"/>
+          <entry key="newline" value="&#13;&#10;"/>
+          <entry key="reformatFileOnSaveAndExport" value="false"/>
+          <entry key="backup" value="false"/>
+          <entry key="openLastEdited" value="true"/>
+          <entry key="resolveStringsAllFields" value="false"/>
+          <entry key="doNotResolveStringsFor" value="url"/>
+          <entry key="autoSave" value="true"/>
+          <entry key="promptBeforeUsingAutosave" value="true"/>
+          <entry key="autoSaveInterval" value="10"/>
+          <entry key="exportInOriginalOrder" value="false"/>
+          <entry key="exportInSpecifiedOrder" value="false"/>
+          <entry key="exportPriDescending" value="false"/>
+          <entry key="exportSecDescending" value="false"/>
+          <entry key="exportTerDescending" value="true"/>
+          <entry key="exportPriSort" value="bibtexkey"/>
+          <entry key="exportSecSort" value="author"/>
+          <entry key="exportTerSort" value="title"/>
+          <entry key="autoOpenForm" value="true"/>
+          <entry key="defaultShowSource" value="false"/>
+          <entry key="shortestToComplete" value="1"/>
+          <entry key="autoComplete" value="true"/>
+          <entry key="autoCompFF" value="false"/>
+          <entry key="autoCompLF" value="false"/>
+          <entry key="autoCompFirstNameMode" value="BOTH"/>
+          <entry key="groupShowIcons" value="true"/>
+          <entry key="groupShowDynamic" value="true"/>
+          <entry key="groupExpandTree" value="true"/>
+          <entry key="groupsDefaultField" value="category"/>
+          <entry key="groupKeywordSeparator" value=", "/>
+          <entry key="useDefaultLookAndFeel" value="true"/>
+          <entry key="lookAndFeel" value="com.sun.java.swing.plaf.windows.WindowsLookAndFeel"/>
+          <entry key="tableColorCodesOn" value="true"/>
+          <entry key="tableResolvedColorCodesOn" value="true"/>
+          <entry key="fontFamily" value="Dialog"/>
+          <entry key="fontStyle" value="0"/>
+          <entry key="fontSize" value="12"/>
+          <entry key="overrideDefaultFonts" value="true"/>
+          <entry key="tableText" value="0:0:0"/>
+          <entry key="markedEntryBackground0" value="255:255:180"/>
+          <entry key="tableBackground" value="255:255:255"/>
+          <entry key="markedEntryBackground1" value="255:220:180"/>
+          <entry key="tableReqFieldBackground" value="230:235:255"/>
+          <entry key="markedEntryBackground2" value="255:180:160"/>
+          <entry key="tableOptFieldBackground" value="230:255:230"/>
+          <entry key="markedEntryBackground3" value="255:120:120"/>
+          <entry key="incompleteEntryBackground" value="250:175:175"/>
+          <entry key="markedEntryBackground4" value="255:75:75"/>
+          <entry key="gridColor" value="210:210:210"/>
+          <entry key="markedEntryBackground5" value="220:255:220"/>
+          <entry key="fieldEditorTextColor" value="0:0:0"/>
+          <entry key="validFieldBackgroundColor" value="255:255:255"/>
+          <entry key="activeFieldEditorBackgroundColor" value="220:220:255"/>
+          <entry key="invalidFieldBackgroundColor" value="255:0:0"/>
+          <entry key="tableResolvedFieldBackground" value="240:240:240"/>
+          <entry key="tableShowGrid" value="true"/>
+          <entry key="tableRowPadding" value="1"/>
+          <entry key="emailSubject" value="References"/>
+          <entry key="openFoldersOfAttachedFiles" value="false"/>
+          <entry key="citeCommand" value="\cite"/>
+          <entry key="useDefaultConsoleApplication" value="true"/>
+          <entry key="consoleCommand" value="C:\Program Files\ConEmu\ConEmu64.exe /single /dir &quot;%DIR&quot;"/>
+          <entry key="namesAsIs" value="false"/>
+          <entry key="namesFf" value="false"/>
+          <entry key="namesNatbib" value="false"/>
+          <entry key="namesLastOnly" value="false"/>
+          <entry key="abbrAuthorNames" value="true"/>
+          <entry key="autoResizeMode" value="true"/>
+          <entry key="priDescending" value="false"/>
+          <entry key="secDescending" value="false"/>
+          <entry key="terDescending" value="false"/>
+          <entry key="priSort" value="author/editor"/>
+          <entry key="secSort" value=""/>
+          <entry key="terSort" value=""/>
+          <entry key="floatMarkedEntries" value="true"/>
+          <entry key="fileColumn" value="true"/>
+          <entry key="urlColumn" value="true"/>
+          <entry key="preferUrlDoi" value="true"/>
+          <entry key="arxivColumn" value="false"/>
+          <entry key="extraFileColumns" value="false"/>
+          <entry key="listOfFileColumns" value=""/>
+          <entry key="defaultBibtexKeyPattern" value="[auth5][auth1_2][auth1_3][shortyear][journal:abbr]"/>
+          <entry key="warnBeforeOverwritingKey" value="false"/>
+          <entry key="avoidOverwritingKey" value="false"/>
+          <entry key="KeyPatternRegex" value=""/>
+          <entry key="KeyPatternReplacement" value=""/>
+          <entry key="generateKeysAfterInspection" value="true"/>
+          <entry key="generateKeysBeforeSaving" value="false"/>
+          <entry key="keyGenFirstLetterA" value="false"/>
+          <entry key="keyGenAlwaysAddLetter" value="false"/>
+          <entry key="preview0" value="&lt;font face=&quot;sans-serif&quot;&gt;&lt;b&gt;&lt;i&gt;\format[EntryTypeFormatter]{\entrytype}&lt;/i&gt;&lt;a name=&quot;\bibtexkey&quot;&gt;\begin{bibtexkey} (\bibtexkey)&lt;/a&gt;\end{bibtexkey}&lt;/b&gt;&lt;br&gt;__NEWLINE__\begin{author} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\author}&lt;BR&gt;\end{author}__NEWLINE__\begin{editor} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\editor} &lt;i&gt;(\format[IfPlural(Eds.,Ed.)]{\editor})&lt;/i&gt;&lt;BR&gt;\end{editor}__NEWLINE__\begin{title} \format[HTMLChars]{\title} \end{title}&lt;BR&gt;__NEWLINE__\begin{chapter} \format[HTMLChars]{\chapter}&lt;BR&gt;\end{chapter}__NEWLINE__\begin{journal} &lt;em&gt;\format[HTMLChars]{\journal}, &lt;/em&gt;\end{journal}__NEWLINE__\begin{booktitle} &lt;em&gt;\format[HTMLChars]{\booktitle}, &lt;/em&gt;\end{booktitle}__NEWLINE__\begin{school} &lt;em&gt;\format[HTMLChars]{\school}, &lt;/em&gt;\end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{publisher} &lt;em&gt;\format[HTMLChars]{\publisher}, &lt;/em&gt;\end{publisher}__NEWLINE__\begin{year}&lt;b&gt;\year&lt;/b&gt;\end{year}\begin{volume}&lt;i&gt;, \volume&lt;/i&gt;\end{volume}\begin{pages}, \format[FormatPagesForHTML]{\pages} \end{pages}__NEWLINE__\begin{abstract}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Abstract: &lt;/b&gt; \format[HTMLChars]{\abstract} \end{abstract}__NEWLINE__\begin{review}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Review: &lt;/b&gt; \format[HTMLChars]{\review} \end{review}&lt;/dd&gt;__NEWLINE__&lt;p&gt;&lt;/p&gt;&lt;/font&gt;"/>
+          <entry key="preview1" value="&lt;font face=&quot;sans-serif&quot;&gt;&lt;b&gt;&lt;i&gt;\format[EntryTypeFormatter]{\entrytype}&lt;/i&gt;&lt;a name=&quot;\bibtexkey&quot;&gt;\begin{bibtexkey} (\bibtexkey)&lt;/a&gt;\end{bibtexkey}&lt;/b&gt;&lt;br&gt;__NEWLINE__\begin{author} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\author}&lt;BR&gt;\end{author}__NEWLINE__\begin{editor} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\editor} &lt;i&gt;(\format[IfPlural(Eds.,Ed.)]{\editor})&lt;/i&gt;&lt;BR&gt;\end{editor}__NEWLINE__\begin{title} \format[HTMLChars]{\title} \end{title}&lt;BR&gt;__NEWLINE__\begin{chapter} \format[HTMLChars]{\chapter}&lt;BR&gt;\end{chapter}__NEWLINE__\begin{journal} &lt;em&gt;\format[HTMLChars]{\journal}, &lt;/em&gt;\end{journal}__NEWLINE__\begin{booktitle} &lt;em&gt;\format[HTMLChars]{\booktitle}, &lt;/em&gt;\end{booktitle}__NEWLINE__\begin{school} &lt;em&gt;\format[HTMLChars]{\school}, &lt;/em&gt;\end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{publisher} &lt;em&gt;\format[HTMLChars]{\publisher}, &lt;/em&gt;\end{publisher}__NEWLINE__\begin{year}&lt;b&gt;\year&lt;/b&gt;\end{year}\begin{volume}&lt;i&gt;, \volume&lt;/i&gt;\end{volume}\begin{pages}, \format[FormatPagesForHTML]{\pages} \end{pages}&lt;/dd&gt;__NEWLINE__&lt;p&gt;&lt;/p&gt;&lt;/font&gt;"/>
+          <entry key="importAlwaysUsePDFImportStyle" value="false"/>
+          <entry key="importDefaultPDFimportStyle" value="4"/>
+          <entry key="importFileNamePattern" value="[bibtexkey]- [category]"/>
+          <entry key="useXmpPrivacyFilter" value="false"/>
+          <entry key="useRemoteServer" value="true"/>
+          <entry key="useCaseKeeperOnSearch" value="true"/>
+          <entry key="useUnitFormatterOnSearch" value="true"/>
+          <entry key="lastFocused" value="D:\references\非层状2D.bib"/>
+          <entry key="recentFiles" value="D:\\Reference\\0PhotoDetector&amp;Nano.bib;D:\\Reference\\0_Lay-Chem.bib;D:\\Reference\\0_Lay-synthesis.bib;C:\\Users\\SLLi\\Desktop\\文献实时\\Valley&amp;PL.bib;D:\\00download\\detecting-topological-currents-in-graphene-superlattices.bib;D:\\Reference\\G1.bib;D:\\Reference\\G2.bib;D:\\Reference\\G3.bib"/>
+          <entry key="customTypeName_0" value="Article"/>
+          <entry key="customTypeReq_0" value="author;title;journal;year;volume;pages"/>
+          <entry key="customTypeOpt_0" value="month;number;category;owner;file;doi"/>
+          <entry key="customTypePriOpt_0" value="month;number;category;owner;file;doi"/>
+          <entry key="customTypeName_1" value="Book"/>
+          <entry key="customTypeReq_1" value="title;publisher;year;author/editor"/>
+          <entry key="customTypeOpt_1" value="volume;number;series;address;edition;month;note"/>
+          <entry key="customTypePriOpt_1" value="volume;number;series;address;edition;month;note"/>
+          <entry key="customTypeName_2" value="Conference"/>
+          <entry key="customTypeReq_2" value="author;title;booktitle;year;journal;pages"/>
+          <entry key="customTypeOpt_2" value="editor;volume;number;series;pages;address;month;organization;publisher;note"/>
+          <entry key="customTypePriOpt_2" value="editor;volume;number;series;pages;address;month;organization;publisher;note"/>
+          <entry key="customTypeName_3" value="Inbook"/>
+          <entry key="customTypeReq_3" value="chapter/pages;title;publisher;year;author/editor"/>
+          <entry key="customTypeOpt_3" value="volume;number;series;type;address;edition;month;note"/>
+          <entry key="customTypePriOpt_3" value="volume;number;series;type;address;edition;month;note"/>
+          <entry key="previewPanelHeight" value="184"/>
+          <entry key="entryEditorHeight" value="172"/>
+          <entry key="language" value="en"/>
+          <entry key="menuFontSize" value="12"/>
+          <entry key="specialFieldsEnabled" value="true"/>
+          <entry key="showRankingColumn" value="true"/>
+          <entry key="showPriorityColumn" value="true"/>
+          <entry key="showQualityColumn" value="true"/>
+          <entry key="showRelevanceColumn" value="false"/>
+          <entry key="showPrintedColumn" value="false"/>
+          <entry key="showReadColumn" value="true"/>
+          <entry key="autoSyncSpecialFieldsToKeywords" value="true"/>
+          <entry key="serializeSpecialFields" value="false"/>
+          <entry key="numberColWidth" value="30"/>
+          <entry key="columnNames" value="entrytype;author/editor;title;year;journal/booktitle;bibtexkey"/>
+          <entry key="columnWidths" value="100;100;100;100;100;100"/>
+          <entry key="workingDirectory" value="D:\"/>
+          <entry key="DroppedFileHandler_LeaveFileInDir" value="false"/>
+          <entry key="DroppedFileHandler_CopyFile" value="false"/>
+          <entry key="DroppedFileHandler_MoveFile" value="true"/>
+          <entry key="DroppedFileHandler_RenameFile" value="true"/>
+          <entry key="duplicatesPosX" value="358"/>
+          <entry key="duplicatesPosY" value="178"/>
+          <entry key="duplicatesSizeX" value="800"/>
+          <entry key="duplicatesSizeY" value="600"/>
+          <entry key="CleanUpDOI" value="true"/>
+          <entry key="CleanUpISSN" value="false"/>
+          <entry key="CleanUpMovePDF" value="false"/>
+          <entry key="CleanUpMakePathsRelative" value="true"/>
+          <entry key="CleanUpRenamePDF" value="true"/>
+          <entry key="CleanUpRenamePDFonlyRelativePaths" value="false"/>
+          <entry key="CleanUpUpgradeExternalLinks" value="true"/>
+          <entry key="CleanUpConvertToBiblatex" value="false"/>
+          <entry key="CleanUpFixFileLinks" value="true"/>
+          <entry key="CleanUpFormatters" value="enabled;date[normalize_date]&#13;&#10;pages[normalize_page_numbers]&#13;&#10;month[normalize_month]&#13;&#10;title[protect_terms,units_to_latex,latex_cleanup,html_to_latex]&#13;&#10;"/>
+          <entry key="importInspectionDialogWidth" value="1082"/>
+          <entry key="importInspectionDialogHeight" value="688"/>
+          <entry key="numericFields" value="mittnum;tc"/>
+          <entry key="sidePaneWidth" value="175"/>
+          <entry key="importWorkingDirectory" value="D:\Microsoft edge 下载文件"/>
+          <entry key="mergeEntriesPosX" value="129"/>
+          <entry key="mergeEntriesPosY" value="79"/>
+          <entry key="mergeEntriesSizeX" value="800"/>
+          <entry key="mergeEntriesSizeY" value="600"/>
+          <entry key="exportWorkingDirectory" value="D:\Reference\abc\MyRtf_NSFC-CV"/>
+          <entry key="customExportFormat0" value="MyDoc_1000Plan;D:\\Reference\\abc\\MyRtf_1000plan\\1000plan_Rep.layout;.rtf"/>
+          <entry key="customExportFormat1" value="MyDoc_PhDSupervisor;D:\\Reference\\abc\\MyRtf_PhDSupervisor\\PhDSupervisor_Rep.layout;.rtf"/>
+          <entry key="customExportFormat2" value="My_html;D:\\Reference\\abc\\MyHtmlExpt\\simplehtml.layout;.html"/>
+          <entry key="customExportFormat3" value="MyDoc_ICYS_Rep;D:\\Reference\\abc\\MyRtf_ICYS_Rep\\ICYS_Rep.layout;.rtf"/>
+          <entry key="customExportFormat4" value="MyDoc_ICYS_seimicolon;D:\\Reference\\abc\\MyRtf_ICYS_semicolon\\ICYS_Rep.layout;.rtf"/>
+          <entry key="termsPosX" value="61"/>
+          <entry key="termsPosY" value="168"/>
+          <entry key="termsSizeX" value="500"/>
+          <entry key="termsSizeY" value="500"/>
+          <entry key="versionIgnoreUpdate" value="5.7"/>
+          <entry key="externalJournalLists" value="D:\\Reference\\abc\\JnlAbbr_my.txt"/>
+          <entry key="lastUsedExport" value="ris"/>
+          <entry key="cyclePreviewPos" value="0"/>
+          <entry key="cyclePreview" value="Preview"/>
+          <entry key="previewStyle" value="&lt;font face=&quot;arial&quot;&gt;&lt;b&gt;&lt;i&gt;\bibtextype&lt;/i&gt;&lt;/b&gt;&lt;a name=&quot;\bibtexkey&quot;&gt;\begin{bibtexkey} [\bibtexkey]&lt;/a&gt;\end{bibtexkey}&lt;br&gt;__NEWLINE__\begin{author}\format[HTMLChars,Authors(LastFirst,InitialsNoSpace,NoPunc,Amp)]{\author}\end{author}__NEWLINE__\begin{chapter} a chapter:&lt;font color=&quot;#000080&quot;&gt; &lt;i&gt; \format[HTMLChars]{\chapter}&lt;/i&gt; &lt;/font&gt; \end{chapter} &lt;BR&gt;__NEWLINE__\begin{title}&lt;b&gt;&lt;font color=&quot;#008000&quot;&gt;\format[HTMLChars]{\title} &lt;/font&gt;&lt;/b&gt;\end{title}__NEWLINE__\begin{editor}-- \format[AuthorFirstFirst,HTMLChars,AuthorAndsReplacer]{\editor} &lt;i&gt;(ed.)&lt;/i&gt;\end{editor} &lt;BR&gt;__NEWLINE__&lt;font color=&quot;#808000&quot;&gt;__NEWLINE__\begin{author}\format[HTMLChars,Authors(FirstFirst,Initials,Commas,Amp,1)]{\author}\end{author}, __NEWLINE__\begin{journal} &lt;em&gt;\format[HTMLChars]{\journal}&lt;/em&gt;\end{journal}, __NEWLINE__\begin{booktitle} &lt;em&gt;\format[HTMLChars]{\booktitle}, &lt;/em&gt;\end{booktitle}__NEWLINE__\begin{school} &lt;em&gt;\format[HTMLChars]{\school}, &lt;/em&gt;\end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{volume} &lt;b&gt;\volume&lt;/b&gt;\end{volume}, __NEWLINE__\begin{pages}\format[FirstPage]{\pages}\end{pages}__NEWLINE__\begin{pnumber} &lt;em&gt;\format[HTMLChars]{\pnumber} &lt;/em&gt;\end{pnumber}__NEWLINE__\begin{year}(\year)\end{year}__NEWLINE__&lt;/font&gt;__NEWLINE__\begin{abstract}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Abstract: &lt;/b&gt; \format[HTMLChars]{\abstract} \end{abstract}__NEWLINE__\begin{comment}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Comment: &lt;/b&gt; \format[Markdown,HTMLChars]{\comment} \end{comment}&lt;/dd&gt;__NEWLINE__&lt;p&gt;&lt;/p&gt;&lt;/font&gt;"/>
+          <entry key="previewEnabled" value="true"/>
+          <entry key="localAutoSave" value="false"/>
+          <entry key="importFileDirPattern" value=""/>
+          <entry key="remoteServerPort" value="6050"/>
+          <entry key="recentDatabases" value="D:\\references\\2D TMD 磁.bib;D:\\references\\非层状2D.bib;D:\\references\\1.bib;D:\\references\\0Chal-SC.bib;D:\\references\\0Chal生长.bib;D:\\Desktop\\工作\\0文献实时\\PL增强.bib;D:\\Reference\\0exciton经典.bib;D:\\Reference\\9_NatSci.bib"/>
+          <entry key="posX" value="66"/>
+          <entry key="posY" value="111"/>
+          <entry key="sizeX" value="1721"/>
+          <entry key="sizeY" value="904"/>
+          <entry key="searchPanelVisible" value="true"/>
+          <entry key="searchReq" value="true"/>
+          <entry key="searchOpt" value="true"/>
+          <entry key="searchGen" value="true"/>
+          <entry key="searchAll" value="false"/>
+          <entry key="incrementS" value="false"/>
+          <entry key="selectS" value="false"/>
+          <entry key="grayOutNonHits" value="true"/>
+          <entry key="caseSensitiveSearch" value="false"/>
+          <entry key="regExpSearch" value="true"/>
+          <entry key="showSearchInDialog" value="false"/>
+          <entry key="searchAllBases" value="false"/>
+          <entry key="enableSourceEditing" value="true"/>
+          <entry key="disableOnMultipleSelection" value="false"/>
+          <entry key="dialogWarningForDuplicateKey" value="true"/>
+          <entry key="dialogWarningForEmptyKey" value="true"/>
+          <entry key="saveInStandardOrder" value="false"/>
+          <entry key="saveInOriginalOrder" value="false"/>
+          <entry key="allowTableEditing" value="false"/>
+          <entry key="ctrlClick" value="false"/>
+          <entry key="autoDoubleBraces" value="true"/>
+          <entry key="useImportInspectionDialog" value="true"/>
+          <entry key="useImportInspectionDialogForSingle" value="false"/>
+          <entry key="showSource" value="true"/>
+          <entry key="useNativeFileDialogOnMac" value="true"/>
+          <entry key="groupAutoShow" value="true"/>
+          <entry key="groupAutoHide" value="true"/>
+          <entry key="antialias" value="false"/>
+          <entry key="markedEntryBackground" value="255:255:180"/>
+          <entry key="pdfDirectory" value="C:\reference"/>
+          <entry key="psDirectory" value=""/>
+          <entry key="pdfviewer" value="Uses default application"/>
+          <entry key="psviewer" value="Uses default application"/>
+          <entry key="htmlviewer" value="Uses default application"/>
+          <entry key="lyxpipe" value="C:\Documents and Settings\new\.lyx/lyxpipe"/>
+          <entry key="winEdtPath" value="C:\Program Files\WinEdt Team\WinEdt\WinEdt.exe"/>
+          <entry key="pdfColumn" value="true"/>
+          <entry key="citeseerColumn" value="false"/>
+          <entry key="defaultLabelPattern" value="[auth5][shortyear][journal:abbr]"/>
+          <entry key="customTabName_0" value="General"/>
+          <entry key="customTabFields_0" value="crossref;citeseerurl;timestamp;url"/>
+          <entry key="pdf_dir" value="E:\reference\LaOFeAs\DaiPC2008Nature-neutron-LaOFFeAs.pdf"/>
+          <entry key="stringsPosX" value="1109"/>
+          <entry key="stringsPosY" value="358"/>
+          <entry key="stringsSizeX" value="600"/>
+          <entry key="stringsSizeY" value="400"/>
+          <entry key="customTypeName_4" value="Inbook"/>
+          <entry key="customTypeReq_4" value="author;title;journal;pages;year;publisher"/>
+          <entry key="customTypeOpt_4" value="series;editor;type;address;edition;month;note;file"/>
+          <entry key="customTypeName_5" value="Misc"/>
+          <entry key="customTypeReq_5" value="author;title;journal;year;ps"/>
+          <entry key="customTypeOpt_5" value="author;title;howpublished;month;year;note"/>
+          <entry key="highlightGroupsMatchingAny" value="true"/>
+          <entry key="highlightGroupsMatchingAll" value="false"/>
+          <entry key="groupIntersectSelections" value="true"/>
+          <entry key="groupInvertSelections" value="true"/>
+          <entry key="groupsVisibleRows" value="9"/>
+          <entry key="vim" value="vim"/>
+          <entry key="vimServer" value="vim"/>
+          <entry key="latexEditorPath" value="C:\Program Files\LEd\LEd.exe"/>
+          <entry key="useIEEEAbrv" value="true"/>
+          <entry key="customTypeName_6" value="Patent"/>
+          <entry key="customTypeReq_6" value="author;title;pnumber;year;abstract"/>
+          <entry key="customTypeOpt_6" value="techfocus;pdf"/>
+          <entry key="fileWorkingDirectory" value="C:\Users\Standard\Desktop\PrevDesktop\资料_实验设备\半导体工艺"/>
+          <entry key="lastUsedImport" value="__all"/>
+          <entry key="showFileLinksUpgradeWarning" value="false"/>
+          <entry key="savedSession" value="E:\\reference\\CER-Ag\\Ag.bib;E:\\reference\\CER-Schottky.bib;E:\\reference\\CER_Binary.bib;E:\\reference\\CER_Electrolyte.bib;E:\\reference\\CER_Model.bib;E:\\reference\\CER_Organic.bib;E:\\reference\\CER_PCMO.bib;E:\\reference\\CER_PhasC.bib;E:\\reference\\CER_SrTiO3.bib;E:\\reference\\doping.bib;E:\\LislManuscript\\PCMO_03\\ref3.bib;E:\\reference\\CER_Meet.bib;E:\\reference\\YangY-UCLA.bib;E:\\reference\\CRE-TMO.bib"/>
+          <entry key="renameOnMoveFileToFileDir" value="false"/>
+          <entry key="searchDialogWidth" value="650"/>
+          <entry key="searchDialogHeight" value="500"/>
+          <entry key="exportInStandardOrder" value="false"/>
+          <entry key="filechooserDisableRename" value="true"/>
+          <entry key="rememberWindowLocation" value="false"/>
+          <entry key="floatSearch" value="true"/>
+          <entry key="localcopy-policy-7ceba688e3933791e1e84dcc3614563-sel" value="c3RhYmxlL3BkZnBsdXM="/>
+          <entry key="localcopy-policy-7ceba688e3933791e1e84dcc3614563-host" value="d3d3LmpzdG9yLm9yZw=="/>
+          <entry key="localcopy-policy-7ceba688e3933791e1e84dcc3614563-realm" value="VGV4dCB3aXRoaW4gcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-list" value="4c64c2ad4fbec7fe84845841021c49 60dfbae262e51090a96a4910d5723b5 a389455a9bd617b2d75f147c70ad9 40c54242ec38879b8acd191f918b094 87eb1bc3de67833e24cde9c41565ca8 b8c6ccf9e803c1f7dd765796e276c7a b313427bb4e14e8f6c8fbd403dae2131 56bcbf3834be1e137deb488e582936c8 1d8fc739b3dfe4176f6493da56521f72 eb56466130129461db6ee6efff87fc0 1bd819b8b5181ffee24753c41f42d0 7081ff7f1bd799a79fafb76f951de4 ea8ea99e4e456c59ec8d46b30c52eb3 2294f65dca7530db86aa40165a65e9e8 cbb737d3dc7c9f7a6757ad0dd432647 e9e2a9b0d5b035231a11465c24c60c8 2f6515f851d256401b7d9989b86b5f d21ad1f259e07ec15840e79ddcb9f6f5 ffac455eb1c41cdfa8d32b9727f7b7e 15c82f7cf8244fb52c3626c66487 7ceba688e3933791e1e84dcc3614563"/>
+          <entry key="localcopy-policy-15c82f7cf8244fb52c3626c66487-sel" value="U2VsZWN0IHBkZiBmaWxlIHRoYXQgY29udGFpbnMgYSBjZXJ0YWluIHRleHQ="/>
+          <entry key="localcopy-policy-15c82f7cf8244fb52c3626c66487-host" value="d3d3LmpzdG9yLm9yZw=="/>
+          <entry key="localcopy-policy-15c82f7cf8244fb52c3626c66487-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-ffac455eb1c41cdfa8d32b9727f7b7e-sel" value="ZnVsbHRleHQ="/>
+          <entry key="localcopy-policy-ffac455eb1c41cdfa8d32b9727f7b7e-host" value="d3d3My5pbnRlcnNjaWVuY2Uud2lsZXkuY29t"/>
+          <entry key="localcopy-policy-ffac455eb1c41cdfa8d32b9727f7b7e-realm" value="VGV4dCB3aXRoaW4gcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-d21ad1f259e07ec15840e79ddcb9f6f5-sel" value="U2VsZWN0IHBkZiBmaWxlIHRoYXQgY29udGFpbnMgYSBjZXJ0YWluIHRleHQ="/>
+          <entry key="localcopy-policy-d21ad1f259e07ec15840e79ddcb9f6f5-host" value="d3d3My5pbnRlcnNjaWVuY2Uud2lsZXkuY29t"/>
+          <entry key="localcopy-policy-d21ad1f259e07ec15840e79ddcb9f6f5-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-2f6515f851d256401b7d9989b86b5f-sel" value="MQ=="/>
+          <entry key="localcopy-policy-2f6515f851d256401b7d9989b86b5f-host" value="YXJqb3VybmFscy5hbm51YWxyZXZpZXdzLm9yZw=="/>
+          <entry key="localcopy-policy-2f6515f851d256401b7d9989b86b5f-realm" value="SW5kZXggb2YgcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-e9e2a9b0d5b035231a11465c24c60c8-sel" value="U2VsZWN0IG4tdGggcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-e9e2a9b0d5b035231a11465c24c60c8-host" value="YXJqb3VybmFscy5hbm51YWxyZXZpZXdzLm9yZw=="/>
+          <entry key="localcopy-policy-e9e2a9b0d5b035231a11465c24c60c8-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-87eb1bc3de67833e24cde9c41565ca8-sel" value="Jm5ic3A7"/>
+          <entry key="localcopy-policy-87eb1bc3de67833e24cde9c41565ca8-host" value="d3d3LnNjaWVuY2VkaXJlY3QuY29t"/>
+          <entry key="localcopy-policy-87eb1bc3de67833e24cde9c41565ca8-realm" value="VGV4dCB3aXRoaW4gcGRmIGxpbmsgY2FwdGlvbg=="/>
+          <entry key="localcopy-policy-a389455a9bd617b2d75f147c70ad9-sel" value="U2VsZWN0IHBkZiBsaW5rIHdob3NlIHRpdGxlIGNvbnRhaW5zIGEgY2VydGFpbiB0ZXh0"/>
+          <entry key="localcopy-policy-a389455a9bd617b2d75f147c70ad9-host" value="d3d3LnNjaWVuY2VkaXJlY3QuY29t"/>
+          <entry key="localcopy-policy-a389455a9bd617b2d75f147c70ad9-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-cbb737d3dc7c9f7a6757ad0dd432647-sel" value="U2VsZWN0IHBkZiBmaWxlIHRoYXQgY29udGFpbnMgYSBjZXJ0YWluIHRleHQ="/>
+          <entry key="localcopy-policy-cbb737d3dc7c9f7a6757ad0dd432647-host" value="d3d3LmlvcC5vcmc="/>
+          <entry key="localcopy-policy-cbb737d3dc7c9f7a6757ad0dd432647-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-2294f65dca7530db86aa40165a65e9e8-sel" value="YXJ0aWNsZQ=="/>
+          <entry key="localcopy-policy-2294f65dca7530db86aa40165a65e9e8-host" value="d3d3LmlvcC5vcmc="/>
+          <entry key="localcopy-policy-2294f65dca7530db86aa40165a65e9e8-realm" value="VGV4dCB3aXRoaW4gcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-ea8ea99e4e456c59ec8d46b30c52eb3-sel" value="U2VsZWN0IHBkZiBmaWxlIHRoYXQgY29udGFpbnMgYSBjZXJ0YWluIHRleHQ="/>
+          <entry key="localcopy-policy-ea8ea99e4e456c59ec8d46b30c52eb3-host" value="c2NpdGF0aW9uLmFpcC5vcmc="/>
+          <entry key="localcopy-policy-ea8ea99e4e456c59ec8d46b30c52eb3-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-7081ff7f1bd799a79fafb76f951de4-sel" value="Z2V0cGRm"/>
+          <entry key="localcopy-policy-7081ff7f1bd799a79fafb76f951de4-host" value="c2NpdGF0aW9uLmFpcC5vcmc="/>
+          <entry key="localcopy-policy-7081ff7f1bd799a79fafb76f951de4-realm" value="VGV4dCB3aXRoaW4gcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-1bd819b8b5181ffee24753c41f42d0-sel" value="U2VsZWN0IHBkZiBmaWxlIHRoYXQgY29udGFpbnMgYSBjZXJ0YWluIHRleHQ="/>
+          <entry key="localcopy-policy-1bd819b8b5181ffee24753c41f42d0-host" value="d3d3LnNwcmluZ2VybGluay5jb20="/>
+          <entry key="localcopy-policy-1bd819b8b5181ffee24753c41f42d0-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-eb56466130129461db6ee6efff87fc0-sel" value="ZnVsbHRleHQ="/>
+          <entry key="localcopy-policy-eb56466130129461db6ee6efff87fc0-host" value="d3d3LnNwcmluZ2VybGluay5jb20="/>
+          <entry key="localcopy-policy-eb56466130129461db6ee6efff87fc0-realm" value="VGV4dCB3aXRoaW4gcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-1d8fc739b3dfe4176f6493da56521f72-sel" value="U2VsZWN0IHBkZiBmaWxlIHRoYXQgY29udGFpbnMgYSBjZXJ0YWluIHRleHQ="/>
+          <entry key="localcopy-policy-1d8fc739b3dfe4176f6493da56521f72-host" value="d3d3LmluZm9ybWF3b3JsZC5jb20="/>
+          <entry key="localcopy-policy-1d8fc739b3dfe4176f6493da56521f72-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-56bcbf3834be1e137deb488e582936c8-sel" value="ZnVsbHRleHQ="/>
+          <entry key="localcopy-policy-56bcbf3834be1e137deb488e582936c8-host" value="d3d3LmluZm9ybWF3b3JsZC5jb20="/>
+          <entry key="localcopy-policy-56bcbf3834be1e137deb488e582936c8-realm" value="VGV4dCB3aXRoaW4gcGRmIGZpbGU="/>
+          <entry key="localcopy-policy-b313427bb4e14e8f6c8fbd403dae2131-sel" value="RG9uJ3QgbG9nIGluIGFuZCBwcm9jZXNzIHBkZiBsaXN0"/>
+          <entry key="localcopy-policy-b313427bb4e14e8f6c8fbd403dae2131-host" value="d3d3LmluZm9ybWF3b3JsZC5jb20="/>
+          <entry key="localcopy-policy-b313427bb4e14e8f6c8fbd403dae2131-realm" value="T24gbG9naW4gZm9ybSBhbmQgcGRmIGF2YWlsYWJsZQ=="/>
+          <entry key="localcopy-policy-b8c6ccf9e803c1f7dd765796e276c7a-sel" value="RG9uJ3QgbG9nIGluIGFuZCBwcm9jZXNzIHBkZiBsaXN0"/>
+          <entry key="localcopy-policy-b8c6ccf9e803c1f7dd765796e276c7a-host" value="d3d3LmlvcC5vcmc="/>
+          <entry key="localcopy-policy-b8c6ccf9e803c1f7dd765796e276c7a-realm" value="T24gbG9naW4gZm9ybSBhbmQgcGRmIGF2YWlsYWJsZQ=="/>
+          <entry key="localcopy-param-ver" value="2.2"/>
+          <entry key="localcopyShow" value="false"/>
+          <entry key="localcopy-policy-remember" value="true"/>
+          <entry key="localcopy-policy-40c54242ec38879b8acd191f918b094-sel" value="RG93bmxvYWQ="/>
+          <entry key="localcopy-policy-40c54242ec38879b8acd191f918b094-host" value="d3d3LnNjaWVuY2VkaXJlY3QuY29t"/>
+          <entry key="localcopy-policy-40c54242ec38879b8acd191f918b094-realm" value="VGV4dCB3aXRoaW4gcGRmIGxpbmsgdGl0bGU="/>
+          <entry key="localcopy-policy-60dfbae262e51090a96a4910d5723b5-sel" value="U2VsZWN0IHBkZiBmaWxlIHRoYXQgY29udGFpbnMgYSBjZXJ0YWluIHRleHQ="/>
+          <entry key="localcopy-policy-60dfbae262e51090a96a4910d5723b5-host" value="b25saW5lbGlicmFyeS53aWxleS5jb20="/>
+          <entry key="localcopy-policy-60dfbae262e51090a96a4910d5723b5-realm" value="T24gbXVsdGlwbGUgcGRmIGZpbGVz"/>
+          <entry key="localcopy-policy-4c64c2ad4fbec7fe84845841021c49-sel" value="Z2V0IHBkZg=="/>
+          <entry key="localcopy-policy-4c64c2ad4fbec7fe84845841021c49-host" value="b25saW5lbGlicmFyeS53aWxleS5jb20="/>
+          <entry key="localcopy-policy-4c64c2ad4fbec7fe84845841021c49-realm" value="VGV4dCB3aXRoaW4gcGRmIGZpbGU="/>
+          <entry key="bibLocationAsFileDir" value="true"/>
+          <entry key="customTypePriOpt_4" value="series;editor;type;address;edition;month;note;file"/>
+          <entry key="customTypePriOpt_5" value="author;title;howpublished;month;year;note"/>
+          <entry key="customTypePriOpt_6" value="techfocus;pdf"/>
+          <entry key="customTypeName_7" value="Unpublished"/>
+          <entry key="customTypeReq_7" value="author;title;eprint;note"/>
+          <entry key="customTypeOpt_7" value="abstract;keywords;file"/>
+          <entry key="customTypePriOpt_7" value="abstract;keywords;file"/>
+          <entry key="highLightWords" value="true"/>
+          <entry key="personalJournalList" value="D:\Reference\abc\JnlAbbr_Gen.txt"/>
+          <entry key="showOneLetterHeadingForIconColumns" value="true"/>
+          <entry key="pdfPreview" value="false"/>
+          <entry key="useConvertToEquation" value="false"/>
+          <entry key="compactRankingColumn" value="true"/>
+          <entry key="CleanUpSuperscripts" value="true"/>
+          <entry key="CleanUpMonth" value="true"/>
+          <entry key="CleanUpPageNumbers" value="true"/>
+          <entry key="CleanUpHTML" value="true"/>
+          <entry key="CleanUpCase" value="true"/>
+          <entry key="CleanUpLaTeX" value="true"/>
+          <entry key="webSearchVisible" value="false"/>
+          <entry key="selectedFetcherIndex" value="5"/>
+          <entry key="groupSelectMatches" value="false"/>
+          <entry key="customExportFormat5" value="PhDSupervisor;C:\\Reference\\abc\\MyRtf_PhDSupervisor\\PhDSupervisor_Rep.layout;.rtf"/>
+          <entry key="preamblePosX" value="658"/>
+          <entry key="preamblePosY" value="378"/>
+          <entry key="preambleSizeX" value="600"/>
+          <entry key="preambleSizeY" value="400"/>
+          <entry key="prefsExportPath" value="D:\Desktop\111.xml"/>
+          <entry key="customExportFormat6" value="MyDoc_NFSC_CV;D:\\Reference\\abc\\MyRtf_NSFC-CV\\NSFC_CV.layout;.rtf"/>
+          <entry key="groupSidepaneVisible" value="false"/>
+          <entry key="AskAutoNamingPDFsAgain" value="false"/>
+          <entry key="collectTelemetry" value="false"/>
+          <entry key="askedCollectTelemetry" value="true"/>
+          <entry key="adobeAcrobatCommand" value="C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader"/>
+          <entry key="sumatraCommand" value="C:\Program Files\SumatraPDF"/>
+          <entry key="showRecommendations" value="true"/>
+          <entry key="validateInEntryEditor" value="true"/>
+          <entry key="fxFontRenderingTweak" value="false"/>
+          <entry key="iconEnabledColor" value="79:95:143"/>
+          <entry key="iconDisabledColor" value="200:200:200"/>
+          <entry key="findUnlinkedFilesDialogSize" value="568;755"/>
+          <entry key="findUnlinkedFilesWD" value="D:\Desktop"/>
+          <entry key="idEntryGenerator" value="DOI"/>
+          <entry key="searchDialogPosX" value="0"/>
+          <entry key="searchDialogPosY" value="0"/>
+          <entry key="searchGlobal" value="false"/>
+          <entry key="bindNames" value="Abbreviate;Accept;Autogenerate BibTeX keys;Automatically link files;Back;Check integrity;Cleanup;Clear search;Close dialog;Close entry editor;Close library;Copy;Copy BibTeX key;Copy BibTeX key and link;Copy BibTeX key and title;Copy \\cite{BibTeX key};Copy preview;Copy title;Cut;Decrease table font size;Default table font size;Delete entry;Edit entry;Edit strings;Entry editor, next entry;Entry editor, next panel;Entry editor, next panel 2;Entry editor, previous entry;Entry editor, previous panel;Entry editor, previous panel 2;File list editor, move entry down;File list editor, move entry up;Find unlinked files;Focus entry table;Forward;Help;Import into current library;Import into new library;Increase table font size;Look up full text documents;Mark entries;New article;New book;New entry;New from plain text;New inbook;New mastersthesis;New phdthesis;New proceedings;New technical report;New unpublished;Next preview layout;Next tab;Open OpenOffice/LibreOffice connection;Open URL or DOI;Open file;Open folder;Open library;Open terminal here;Paste;Preamble editor, store changes;Previous preview layout;Previous tab;Pull changes from shared database;Push to application;Quit JabRef;Redo;Refresh OO;Replace string;Resolve duplicate BibTeX keys;Save all;Save library;Save library as ...;Search;Search globally;Select all;Select first entry;Select last entry;String dialog, add string;String dialog, remove string;Synchronize files;Toggle entry preview;Toggle groups interface;Unabbreviate;Undo;Unmark entries;Web search;Write XMP"/>
+          <entry key="columnSortTypes" value=""/>
+          <entry key="sidePaneWidthFX" value="0.15"/>
+          <entry key="entryEditorHeightFX" value="0.5226737338044758"/>
+          <entry key="columnSortOrder" value=""/>
+          <entry key="previewPanelHeightFX" value="0.65"/>
+          <entry key="previewAsTab" value="false"/>
+          <entry key="lastEdited" value="D:\\references\\0Chal-SC.bib;D:\\references\\0Chal生长.bib;D:\\references\\CVD.bib;D:\\references\\非层状2D.bib"/>
+          <entry key="acceptRecommendations" value="true"/>
+          <entry key="sendLanguageData" value="false"/>
+          <entry key="sendOSData" value="false"/>
+          <entry key="sendTimezoneData" value="false"/>
+          <entry key="allowIntegerEditionBibtex" value="false"/>
+          <entry key="showAdvancedHints" value="true"/>
+          <entry key="userDefaultFileBrowserApplication" value="true"/>
+          <entry key="fileBrowserCommand" value="explorer.exe /select, &quot;%DIR&quot;"/>
+          <entry key="groupIntersectUnionViewModes" value="INTERSECTION"/>
+          <entry key="showLatexCitations" value="true"/>
+          <entry key="nameFormatterNames" value=""/>
+          <entry key="nameFormatterFormats" value=""/>
+          <entry key="xmpPrivacyFilters" value="pdf;timestamp;keywords;owner;note;review"/>
+          <entry key="mergeEntriesDiffMode" value="WORD"/>
+          <entry key="regExpSearchExpression" value="**/.*[bibtexkey]|[title]).*\\.[extension]"/>
+          <entry key="mainTableColumnNames" value="groups;files;linked_id;field:entrytype;field:author/editor;field:title;field:year;field:journal/booktitle;field:bibtexkey"/>
+          <entry key="mainTableColumnWidths" value="28.0;28.0;28.0;238.71603797060533;238.71603797060533;238.71603797060533;238.71603797060533;238.71603797060533;238.71603797060533"/>
+          <entry key="mainTableColumnSortTypes" value="ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING"/>
+          <entry key="mainTableColumnSortOrder" value="field:journal/booktitle"/>
+        </map>
+        <node name="bibtexkeypatterns">
+          <map/>
+        </node>
+        <node name="customizedBiblatexTypes">
+          <map/>
+        </node>
+        <node name="customizedBibtexTypes">
+          <map>
+            <entry key="Article" value="jabref-entrytype: Article: req[author;title;journal;year] opt[category;comment;owner;tc;volume;number;pages;month;doi;note]"/>
+            <entry key="Book" value="jabref-entrytype: Book: req[title;publisher;year;author/editor] opt[volume;number;series;address;edition;month;note]"/>
+          </map>
+        </node>
+        <node name="labelPattern">
+          <map/>
+        </node>
+        <node name="logic">
+          <map/>
+          <node name="labelpattern">
+            <map/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

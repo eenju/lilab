@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	//$("#mycarousel").load("reuse/slide.html");
+	$("#myindicators").load('reuse/slide_indicators.html');
+	$("#myinner").load('reuse/slide_inner.html');
+	$("#header").load('reuse/header_en.html');
+	$("#news").load("reuse/news_en.html");
+	$("#publist").load("reuse/publist.html");
+	$("#footer").load("reuse/footer_en.html");
+	$.get("reuse/gotop.html",function(data){$("body").append(data);});
+});

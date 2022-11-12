@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--创建者：周健，修改：SLi-->
+<head>
+	<base target="_blank"/>
+	<meta charset="UTF-8">
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Lilab Outcome</title>
+    <!--增加网页logo-->
+    <link rel="shortcut icon" href="img/logo.svg"/>
+    <!--样式文件--开始-->
+    <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
+    <!--你自己的样式文件 -->
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
+    <!--样式文件--结束-->
+
+    <!-- 引入 js 库--开始 -->
+    <script src="js/jquery_3.6.0.js"></script>
+    <script src="js/popper.min_1.12.9.js"></script>
+    <script src="js/bootstrap.min_4.6.1.js"></script>
+    <!-- 引入 js 库--结束 -->
+
+    <!--载入header，silde和footer-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //$("#mycarousel").load("reuse/slide.html");
+            $("#myindicators").load("reuse/slide_indicators.html");
+            $("#myinner").load("reuse/slide_inner.html");
+            $("#header").load("reuse/header.html");
+            $("#news").load("reuse/news.html");
+			$("#publist").load("reuse/publist.html");
+            $("#footer").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){$("body").append(data);});
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 头部 header - start -->
+    <header id=header> 
+	</header>
+    <!-- 头部 header - end -->
+
+	<div class="container-fluid" >
+        <!-- 论文发表列表-->
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12" id="publist">                
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="sm-none-zj sidebar">
+                    <ul>
+					<li ><a href="#y2022" target="_self">2022</a></li>
+					<li ><a href="#y2021" target="_self">2021</a></li>
+					<li ><a href="#y2020" target="_self">2020</a></li>
+					<li ><a href="#y2019" target="_self">2019</a></li>
+					<li ><a href="#y2018" target="_self">2018</a></li>
+					<li ><a href="#y2017" target="_self">2017</a></li>
+					<li ><a href="#old" target="_self">2016及之前</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+    <!--网页footer-->
+    <footer id="footer">  </footer>
+
+</body>
+</html>

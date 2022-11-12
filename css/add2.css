@@ -1,0 +1,50 @@
+/*渐变色水平分割线2--开始*/
+.horiline_small{
+    /*background:linear-gradient(to left,#A27C44,#F4CC60,#A27C44);*/
+    background:linear-gradient(to left,rgb(150, 150, 150),rgb(100, 100, 100),rgb(50, 50, 50));
+    /*渐变色--来自南大*/
+    height:1px;
+    /*margin-top: -15px;*/
+    margin-bottom: 20px;
+  }
+/*渐变色水平分割线2--结束*/
+
+.sm-none-zj{
+    display: none !important;
+}
+.sidebar{
+    /*border-right:1px solid #740A64;*/
+	position:fixed; 
+	top:35%;
+    margin-right: 30px;
+    line-height: 2.5rem;
+    font-size: 1.0rem;
+}
+.sidebar ul{
+    list-style: square;
+}
+
+.newsbtn{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    background-color: transparent;
+}
+
+.newstime{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+
+@media screen and (min-width: 768px){ /*大于等于768*/
+    .sm-none-zj{
+        display: block !important;
+    }
+}
+

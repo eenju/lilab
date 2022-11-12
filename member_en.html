@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--创建者：周健，修改：SLi-->
+<head>
+	<base target="_blank"/>
+	<meta charset="UTF-8">
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Lilab 组内成员</title>
+    <!--增加网页logo-->
+    <link rel="shortcut icon" href="img/logo.svg"/>
+    <!--样式文件--开始-->
+    <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
+    <!--你自己的样式文件 -->
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
+    <!--样式文件--结束-->
+
+    <!-- 引入 js 库--开始 -->
+    <script src="js/jquery_3.6.0.js"></script>
+    <script src="js/popper.min_1.12.9.js"></script>
+    <script src="js/bootstrap.min_4.6.1.js"></script>
+    <!-- 引入 js 库--结束 -->
+
+    <!--载入header，silde和footer-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //$("#mycarousel").load("reuse/slide.html");
+            $("#myindicators").load("reuse/slide_indicators.html");
+            $("#myinner").load("reuse/slide_inner.html");
+            $("#header").load("reuse/header_en.html");
+            $("#news").load("reuse/news_en.html");
+			$("#publist").load("reuse/publist.html");
+            $("#footer").load("reuse/footer_en.html");
+            $.get("reuse/gotop.html",function(data){$("body").append(data);});
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 头部 header - start -->
+    <header id=header> 
+	</header>
+    <!-- 头部 header - end -->
+
+	<div class="container-fluid" >
+        <!-- 中部 content - start -->
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
+            </div>
+
+            <!--组内成员介绍-->
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 intro">
+                <h2 id="member1">Principal Investigator</h2>
+                <div class="horiline"></div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12" style="text-align: center;">
+                        <img src="./img/member/lsl.jpg" width="66%" id="lslpic" alt="黎松林老师">
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                        <span class="member_name">Dr. Songlin Li</span>
+                        <p style="font-size: 1rem;">
+                        Associate Professor of Electronic Engineering. He received his bachelor's degree and master's degree from Chongqing University in 2003 and 2006, and his doctor's degree from Institute of Physics, Chinese Academy of Sciences in 2009. From 2009 to 2016, he worked in National Institute of Materials Science in Japan and University of Strasbourg in France, respectively.
+                        He published over 80 papers in high-level journals, such as <i>Nat. Commun.</i>, <i>Nano Lett.</i>, <i>ACS Nano</i>, <i>Adv. Mater.</i> with over 4600 SCI citations and an H index of 30.
+                        <br/>
+                        <b>Academic ID: </b><a href="http://www.researcherid.com/rid/F-3059-2010">ResearcherID</a>
+                        &nbsp;<a href="https://orcid.org/0000-0002-3995-9580">ORCID</a>
+                        &nbsp;<a href="https://scholar.google.com/citations?user=VZed7UgAAAAJ&hl=en">Google Scholar</a>
+                        &nbsp;&nbsp;<b>Email: </b><a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a>
+                         </p>
+                    </div> 
+                </div>
+
+                <!-- Ph.D.研究生简介，大屏幕一排三人，小屏幕一排一人-->
+                <h2 id="member2" style="margin-top: 20px;">Ph.D. Students</h2>
+                <div class="horiline"></div>
+                <div class="row">
+
+                    <!--博士一-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/xn.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Ning Xu<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Bachelor</b><br/>Northeastern University, CN<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Material relaibility
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--博士二-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/tjc.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Jiachen Tang<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Bachelor</b><br/>Xidian University<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Nanoeletronics</span>
+                        </div>
+                    </div>
+
+                    <!--博士三-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/qlp.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Lipeng Qiu<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Master</b><br/>Nanjing University<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Material synthesis and device
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--博士四-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/lsx.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Shuaixing Li<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Bachelor</b><br/>Northeastern University, CN<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Nanoeletronics
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--博士五-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/llh.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Luhao Liu<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Bachelor</b><br/>Nanjing University<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Device physics
+                            </span>
+                        </div>
+                    </div>
+
+                     <!--博士六-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/zl.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Li Zhan<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Master</b><br/>University of CAS<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Material synthesis and device
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--博士七-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/zwb.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Wenbo Zhang<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Bachelor</b><br/>Harbin Univ. of Sci. and Tech.<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Nanoeletronics
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Master研究生简介，大屏幕一排三人，小屏幕一排一人-->
+                <h2 id="member3" style="margin-top: 20px;">Master Students</h2>
+                <div class="horiline"></div>
+                <div class="row">
+                     <!--Master一-->
+                     <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/syj.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Yinjiang Shao<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Bachelor</b><br/>Nanjing University<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>Interests</b><br/>Nanoeletronics
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 已毕业成员简介，大屏幕一排三人，小屏幕一排一人-->
+                <h2 id="member4" style="margin-top: 20px;">Alumni</h2>
+                <div class="horiline"></div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/jsh.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Dr. Shihao Ju<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Ph.D.</b>, 2022<br/></span>
+                            <div style="height: 10px;"></div>                            
+                            <span class="memberinfo"><a href="https://www.hisilicon.com/en">HiSilicon</a></span> 
+                       </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/lbx.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Dr. Binxi Liang<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Ph.D.</b>, 2022<br/></span>
+                            <div style="height: 10px;"></div>                            
+                            <span class="memberinfo"><a href="https://www.cxmt.com/en/">ChangXin Memory Technologies</a></span> 
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/lx.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Dr. Xin Luo<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Ph.D.</b>, 2022<br/></span>
+                            <div style="height: 10px;"></div>                            
+                            <span class="memberinfo"><a href="https://www.renshinesolar.com/">Renshine Solar Inc.</a></span>
+						 </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/zj.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Dr. Jian Zhou<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Ph.D.</b>, 2022<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><a href="https://www.hisilicon.com/en">HiSilicon</a></span> 
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/waj.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">Anjian Wang<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>Master</b>, 2021<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">National public servant</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="sm-none-zj sidebar">
+                    <ul>
+                        <li ><a href="#member1" target="_self">Principal Investigator</a></li>
+                        <li ><a href="#member2" target="_self">Ph.D. Students</a></li>
+                        <li ><a href="#member3" target="_self">Master Students</a></li>
+                        <li ><a href="#member4" target="_self">Former members</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--网页footer-->
+    <footer id="footer">  </footer>
+
+</body>
+</html>

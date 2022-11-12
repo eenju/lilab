@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--创建者：周健，修改：SLi-->
+<head>
+	<base target="_blank"/>
+	<meta charset="UTF-8">
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Lilab 研究领域</title>
+    <!--增加网页logo-->
+    <link rel="shortcut icon" href="img/logo.svg"/>
+    <!--样式文件--开始-->
+    <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
+    <!--你自己的样式文件, 必须放在系统样式之后 -->
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
+    <!--样式文件--结束-->
+
+    <!-- 引入 js 库--开始 -->
+    <script src="js/jquery_3.6.0.js"></script>
+    <script src="js/popper.min_1.12.9.js"></script>
+    <script src="js/bootstrap.min_4.6.1.js"></script>
+    <!-- 引入 js 库--结束 -->
+
+    <!--载入header，silde和footer-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //$("#mycarousel").load("reuse/slide.html");
+            $("#myindicators").load("reuse/slide_indicators.html");
+            $("#myinner").load("reuse/slide_inner.html");
+            $("#header").load("reuse/header.html");
+            $("#news").load("reuse/news.html");
+			$("#publist").load("reuse/publist.html");
+            $("#footer").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){$("body").append(data);});
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 头部 header - start -->
+    <header id=header> 
+	</header>
+    <!-- 头部 header - end -->
+
+	<div class="container-fluid" >
+        <!-- 中部 content - start -->
+        <div class="row"  id="main">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 intro">
+                <!--仪器设备介绍-->
+                
+      <h2 id="research1">1. 纳米电子学</h2>
+                <div class="horiline"></div>                
+      <ul>
+		<li class="liwithspace">
+			<b>无损原子层刻蚀。</b>首次开发出兼具原子精度的无损数字式刻蚀能力，整套工艺与CMOS完全兼容，结合光刻技术可实现复杂的原子级厚度图案雕刻。请参考<a href="https://doi.org/10.1038/s41467-022-29447-6"><i>Nat. Commun.</i> 13, 1844 (2022)</a>。</li>
+		<li class="liwithspace">
+			<b>半悬空晶体管。</b>利用范德华堆垛技术，构筑了沟道/衬底半隔离的的晶体管，基本无扫描回滞。请参考<a href="https://doi.org/10.1063/5.0097673"><i>Appl. Phys. Lett.</i> 121, 023503 (2022)</a>。</li>
+		<li class="liwithspace">
+			<b>超净介质包覆的晶体管。</b>利用范德华堆垛技术，开发出在超晶六方氮化硼介质上先电极后沟道的二维材料的晶体管构筑方法，晶体管电学性能优异，基本无电学回滞、低温迁移率基本保持在1000 cm<sup>2</sup>V<sup>-1</sup>s<sup>-1</sup>以上。请参考<a href="https://doi.org/10.1021/acsami.2c02956"><i>ACS AMI</i> 14, 18697 (2022)</a>。 </li> 
+		<li class="liwithspace">
+			<b>精准片上集成技术。</b>通过开发液相纳米沉降和电极锚固等异质集成关键技术，成功解决大规模石墨烯阵列跨台阶集成的工艺难题，实现了精准的石墨烯/硅阵列集成，并演示2×2四象限光探测器阵列。精准的三维集成工艺为大面积二维原子晶体与硅融合的片上集成应用开拓了一条新思路。请参考<a href="https://doi.org/10.1021/acsnano.9b00889"><i>ACS Nano.</i> 13, 2654 (2019)</a>。</li> 
+		<li class="liwithspace">
+			<b>石墨烯电子器件。</b>利用极性自适应和超高效率顶栅操控，首次获得具备电压增益（约7）和匹配输入输出特性的石墨烯电压放大器，为使用高迁移率石墨烯发展级联式高频电压振荡源及相关应用提供了可行的方案。工作受到国际关注，被欧盟“旗舰计划”路线图中评价为“第一次实现”，受邀至美国物理协会（APS）2011年度 March Meeting 新闻发布会演讲，还受到《日经产业新闻》、《日刊工业新闻》和《化学工业日报》等媒体报道。请参考<a href="https://doi.org/10.1021/nl100031x"><i>Nano Lett.</i> 10, 2357 (2010)</a>; <a href="https://doi.org/10.1021/nn102346b"><i>ACS Nano.</i> 5, 500 (2011)</a>; <a href="https://doi.org/10.1002/smll.201100318"><i>Small</i> 7, 1552 (2011)</a>.</li>
+	</ul>
+                <div class="d-flex">
+                    <div class="flex-fill">
+                        <img src="img/research/research_1_1.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_1_2.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_1_3.jpg" height=150>
+                    </div>
+                </div>
+
+      <div style="margin-top:30px;"></div>                
+      <h2  id="research2">2. 半导体器件物理</h2>
+      <div class="horiline"></div> 
+      <ul>
+        <li class="liwithspace"> <b>载流子散射理论。</b>发展了用于非对称器件结构下库仑杂质散射的普适计算模型，精准考虑了沟道厚度变化、不对称介电环境和载流子分布等诸多因素，严格推导了表面任意分布的库仑杂质对纳米厚度沟道内载流子散射的库仑力、散射矩阵元以及载流子极化函数 
+          [<a href="https://doi.org/10.7566/JPSJ.84.121011"><em>J. Phys. Soc. 
+          Jpn.</em>, 84, 121011 (2015)</a>] ，指出表面库仑杂质是原子级厚度晶体管沟道迁移率衰退的主要因素，并对性能优化给出了合理建议 
+          [<a href="https://doi.org/10.1021/acs.nanolett.2c02023"><em>Nano Lett.</em>, 
+          22, 6671(2022)</a>, <a href="https://doi.org/10.1021/nl4010783"><i>Nano 
+          Lett.</i> 13, 3546 (2013</a>)]。理论和实验工作阐明了原子级厚度对半导体材料迁移率的影响及规律，为开发和优化后摩尔超短沟道器件以及高密度集成提供了有益指导，还受邀撰写综述文章<a href="https://doi.org/10.1039/C5CS00517E"><em>Chem. 
+          Soc. Rev.</em>, 45, 118 (2016)</a><b>。</b></li>
+        <li class="liwithspace"> <b>金属/半导体接触。</b>系统研究了二维材料厚度和量子限制效应引起的电子注入势垒和接触电阻的变化，观察到维度降低导致的金/半接触增加 
+          [<a href="https://doi.org/10.1021/nn506138y"><em>ACS Nano</em>, 8, 12836 
+          (2014)</a>]。引入超低功函数金属作为电极，研究了Yb/WS2的接触性能。结果表明，沟道表层损伤造成的界面能级钉扎是二维材料高接触电阻的起源 
+          [<a href="https://doi.org/10.1063/5.0095493"><em>Appl. Phys. Lett.</em>, 
+          120, 253505 (2022)</a>]<b>。</b></li>
+        <li class="liwithspace"> <b>2D材料厚度表征。</b> 厘清了光干涉效应对2D材料在绝缘衬底上的拉曼信号强度的影响规律，提出了一种2D材料的厚度表征方法<a href="https://doi.org/10.1021/nn3025173"><em>ACS 
+          Nano</em>, 6, 7381 (2012)</a>。</li>
+      </ul>
+                <div class="d-flex">
+                    <div class="flex-fill">
+                        <img src="img/research/research_2_1.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_2_2.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_2_3.jpg" height=150>
+                    </div>
+                </div>        
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                
+      <div class="sm-none-zj sidebar"> 
+        <ul>
+          <li ><a href="#research1" target="_self">纳米电子学</a></li>
+          <li ><a href="#research2" target="_self">半导体器件物理</a></li>
+        </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--网页footer-->
+    <footer id="footer">  </footer>
+
+
+</body>
+</html>

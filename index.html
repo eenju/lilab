@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--创建者：周健，修改：SLi-->
+<head>
+	<base target="_blank"/>
+	<meta charset="UTF-8">
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Songlin Li's Lab in NJU</title>
+    <!--增加网页logo-->
+    <link rel="shortcut icon" href="img/logo.svg"/>
+    <!--样式文件--开始-->
+    <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
+    <!--自己的样式文件, 必须放在系统样式之后 -->
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/add2.css">
+    <!--样式文件--结束-->
+
+    <!-- 引入 js 库--开始 -->
+    <script src="js/jquery_3.6.0.js"></script>
+    <script src="js/popper.min_1.12.9.js"></script>
+    <script src="js/bootstrap.min_4.6.1.js"></script>
+    <!-- 引入 js 库--结束 -->
+    
+    <!--载入header，silde和footer-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //$("#mycarousel").load("reuse/slide.html");
+            $("#myindicators").load("reuse/slide_indicators.html");
+            $("#myinner").load("reuse/slide_inner.html");
+            $("#header").load("reuse/header.html");
+            $("#news").load("reuse/news.html");
+			$("#publist").load("reuse/publist.html");
+            $("#footer").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){$("body").append(data);});
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 头部 header - start -->
+    <header id=header> 
+	</header>
+    <!-- 头部 header - end -->
+
+
+    <div class="container-fluid" >
+        <!-- 中部 content - start -->
+        <div class="row"  id="main">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12"> </div>  <!-- 左侧空栏-->
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                <!--基本介绍-->
+                <div class="intro">
+                    <h2>介绍</h2>
+                      <div class="horiline"></div>
+                    <p><br>&emsp;&emsp;本课题组（<a href="http://api.map.baidu.com/marker?location=32.116786,118.967882&title=我的位置&content=南京大学电子科学与工程学院&output=html">百度地图</a>）成立于2016年7月，隶属于南京大学电子科学与工程学院，致力于发展后摩尔时代的微纳电子学以及探索凝聚态物质的新奇物理现象，主要围绕微纳电子器件、半导体器件物理、二维电子材料合成、量子输运等方面开展工作。毕业生多入职华为海思、合肥长鑫等知名半导体企业。
+                    <br><br>&emsp;&emsp;每年招收博士生2名，硕士生1名，常年招收博士后（24-60万元/年）。欢迎有物理、材料、或微电子背景，对科学研究有浓厚兴趣的同学报考，请将简历发送至<a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a>。
+					<br></p>
+                </div>
+			</div>
+                			
+			<div class="col-lg-5 col-md-5 col-sm-12 col-12">
+				<div class="intro">
+					 <h2>科研动态</h2>
+					 <div class="horiline"></div>
+				</div>
+				<!--幻灯片播放-->
+				<div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="3000">
+					<ol class="carousel-indicators" id="myindicators"> </ol>  
+					
+        <div class="carousel-inner" id="myinner"> </div>
+					<a class="carousel-control-prev" href="#mycarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+					<a class="carousel-control-next" href="#mycarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+				</div>
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-12 col-12"> </div>  <!-- 右侧空栏-->
+
+			<!-- Row2开始 = 空1列 + 折叠新闻  -->
+			<div class="col-lg-1 col-md-1 col-sm-12 col-12">     </div>
+			<div class="col-lg-10 col-md-10 col-sm-12 col-12" id="news">   </div>  <!-- 加载新闻代码-->
+			<div class="col-lg-1 col-md-1 col-sm-12 col-12">     </div>				 
+
+			<div class="col-lg-1 col-md-1 col-sm-12 col-12">     </div>
+			<div class="col-lg-10 col-md-10 col-sm-12 col-12">
+				<div class="intro">
+					<h2><br>岗位申请</h2>
+					<div class="horiline"></div>
+	<p> <b>博士后：</b><a href="https://hr.nju.edu.cn/49/fe/c5977a477694/page.htm">毓秀计划</a>（24-60万元/年）、<a href="https://hr.nju.edu.cn/13/14/c6335a463636/page.htm">国际交流计划</a>（30万元/年）、<a href="https://hr.nju.edu.cn/56/d8/c6335a480984/page.htm">博新计划</a>（30万元/年）。<br>&emsp;&emsp;&emsp;&emsp;提供有竞争力的薪酬和扶持，详情请参考<a href="https://rczp.nju.edu.cn/yjxlhbsh/bshjj/index.html">学校招聘信息</a>。
+	  <br><b>研究生：</b><a href="https://ese.nju.edu.cn/22674/list.htm">博士生申请考核制</a>、<a href="https://ese.nju.edu.cn/22673/list.htm">硕士研究生及推免夏令营</a>。 
+	  <br><b>招生名额：</b>每年博士生2名，硕士生1名，常年招收博士后若干。
+	  <br><br><b>研究领域：</b>1）后摩尔时代的微纳电子学，2）凝聚态物质的新奇物理现象。<br>
+	  <b>研究方向：</b></b>1）微纳电子器件，2）半导体器件物理，3）二维电子材料合成，4）量子输运。 <br>
+	  <b>学术背景：</b>特别欢迎物理、材料、或微电子背景，对科学研究有浓厚兴趣的同学。 <br>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;研究生或博后申请，请将简历发送至<a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a>。 </p>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-12 col-12"> </div>
+			   <!-- Row2结束 = 空1列 + 折叠新闻  -->
+						  
+            </div>
+        </div>
+
+
+    <!--网页footer-->
+    <footer id="footer">  </footer>
+    
+</body>
+</html>

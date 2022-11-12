@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--创建者：周健，修改：SLi-->
+<head>
+	<base target="_blank"/>
+	<meta charset="UTF-8">
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Songlin Li's Lab in NJU</title>
+    <!--增加网页logo-->
+    <link rel="shortcut icon" href="img/logo.svg"/>
+    <!--样式文件--开始-->
+    <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
+    <!--自己的样式文件, 必须放在系统样式之后 -->
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
+    <!--样式文件--结束-->
+
+    <!-- 引入 js 库--开始 -->
+    <script src="js/jquery_3.6.0.js"></script>
+    <script src="js/popper.min_1.12.9.js"></script>
+    <script src="js/bootstrap.min_4.6.1.js"></script>
+    <!-- 引入 js 库--结束 -->
+    
+    <!--载入header，silde和footer-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //$("#mycarousel").load("reuse/slide.html");
+            $("#myindicators").load("reuse/slide_indicators.html");
+            $("#myinner").load("reuse/slide_inner.html");
+            $("#header").load("reuse/header.html");
+            $("#news").load("reuse/news_all_solo.html");
+			$("#publist").load("reuse/publist.html");
+            $("#footer").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){$("body").append(data);});
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 头部 header - start -->
+    <header id=header> 
+	</header>
+    <!-- 头部 header - end -->
+
+    <div class="container-fluid" >
+        <!-- 中部 content - start -->
+        <div class="row"  id="main">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12"> </div>  <!-- 左侧空栏-->
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                <!--基本介绍-->
+                
+			</div>
+                			
+			<div class="col-lg-5 col-md-5 col-sm-12 col-12">
+				
+					<!--幻灯片播放-->
+					
+				</div>
+				    <div class="col-lg-1 col-md-1 col-sm-12 col-12"> </div>  <!-- 右侧空栏-->
+
+                    <!-- Row2开始 = 空1列 + 折叠新闻  -->
+                    <div class="col-lg-1 col-md-1 col-sm-12 col-12">     </div>
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-12" id="news">   </div>  <!-- 加载新闻代码-->
+                    <div class="col-lg-1 col-md-1 col-sm-12 col-12">     </div>				 
+				 
+                   <!-- Row2结束 = 空1列 + 折叠新闻  -->
+						  
+            </div>
+        </div>
+
+
+    <!--网页footer-->
+    <footer id="footer">  </footer>
+    
+</body>
+</html>

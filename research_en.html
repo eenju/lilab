@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--创建者：周健，修改：SLi-->
+<head>
+	<base target="_blank"/>
+	<meta charset="UTF-8">
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Lilab 研究领域</title>
+    <!--增加网页logo-->
+    <link rel="shortcut icon" href="img/logo.svg"/>
+    <!--样式文件--开始-->
+    <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
+    <!--你自己的样式文件, 必须放在系统样式之后 -->
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
+    <!--样式文件--结束-->
+
+    <!-- 引入 js 库--开始 -->
+    <script src="js/jquery_3.6.0.js"></script>
+    <script src="js/popper.min_1.12.9.js"></script>
+    <script src="js/bootstrap.min_4.6.1.js"></script>
+    <!-- 引入 js 库--结束 -->
+
+    <!--载入header，silde和footer-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //$("#mycarousel").load("reuse/slide.html");
+            $("#myindicators").load("reuse/slide_indicators.html");
+            $("#myinner").load("reuse/slide_inner.html");
+            $("#header").load("reuse/header_en.html");
+            $("#news").load("reuse/news_en.html");
+			$("#publist").load("reuse/publist.html");
+            $("#footer").load("reuse/footer_en.html");
+            $.get("reuse/gotop.html",function(data){$("body").append(data);});
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 头部 header - start -->
+    <header id=header> 
+	</header>
+    <!-- 头部 header - end -->
+
+	<div class="container-fluid" >
+        <!-- 中部 content - start -->
+        <div class="row"  id="main">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 intro">
+                <!--仪器设备介绍-->
+                
+      <h2 id="research1">1. Nanoelectronics</h2>
+                <div class="horiline"></div>
+                
+      <ul>
+        <li class="liwithspace"> <b>Non-invasive atomic layer etching. </b>A protocol 
+          is devised that allows for non-invasive and atomically digital etching 
+          of van der Waals transition-metal dichalcogenides through selective 
+          alloying via low-temperature thermal diffusion and subsequent wet etching, 
+          representing a highly precise and non-invasive tailoring route for material 
+          manipulation. See<a href="https://doi.org/10.1038/s41467-022-29447-6"> 
+          <i>Nat. Commun.</i> 13, 1844 (2022)</a>.</li>
+        <li class="liwithspace"> <b>An air-gapped FET.</b> By using van der Waals 
+          stacking method, we fabricated semi-suspended, ari-gapped FETs with 
+          negligible scanning hystersis and high carrier mobilities. See <a href="https://doi.org/10.1063/5.0097673"><i>Appl. 
+          Phys. Lett.</i> 121, 023503 (2022)</a>. </li>
+		<li class="liwithspace"> <b>Clean BN-Encapsulated 2D FETs. </b>We managed 
+          to integrate lithography-defined contacts into BN-encapsulated 2D FETs, 
+          giving rise to high overall device quality comparable to the state-of-the-art 
+          results. See <a href="https://doi.org/10.1021/acsami.2c02956"><i>ACS 
+          AMI</i> 14, 18697 (2022)</a>. </li>
+        <li class="liwithspace"> <b>On-chip integration of patterned 2D materials. 
+          </b>We developed an novel subsidence-assisted integration method that 
+          enables spatially precise integration of arrays of micropatterned 2D 
+          crystals onto Si/SiO2 substrates, representing an attractive, low-cost 
+          system-on-chip strategy toward More-than-Moore microelectronics. See 
+          <a href="https://doi.org/10.1021/acsnano.9b00889"><i>ACS Nano.</i> 13, 2654 (2019)</a>. </li>
+        <li class="liwithspace"> <b>Graphene voltage inverters. </b>We exploited 
+          the spontaneous surface passivation of Al to define the gate/dielectric 
+          stacks and fabricated complementary-like voltage inverters based on 
+          ambipolar graphene transistors, with over-unity voltage gains and matched 
+          input and output. See <a href="https://doi.org/10.1021/nl100031x"><i>Nano 
+          Lett.</i> 10, 2357 (2010)</a>; 
+          <a href="https://doi.org/10.1021/nn102346b"><i>ACS Nano.</i>
+          5, 500 (2011)</a>; <a href="https://doi.org/10.1002/smll.201100318"><i>Small</i> 
+          7, 1552 (2011)</a>.</li>
+      </ul>
+                <div class="d-flex">
+                    <div class="flex-fill">
+                        <img src="img/research/research_1_1.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_1_2.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_1_3.jpg" height=150>
+                    </div>
+                </div>
+
+                <div style="margin-top:30px;"></div>
+                
+      <h2  id="research2">2. Device physics in FETs</h2>
+                <div class="horiline"></div>
+                
+      <ul>
+        <li class="liwithspace"> <b>Theory of charge scattering. </b>We developed 
+          a generalized Coulomb scattering model with strictly considering device 
+          configurative conditions, that is, asymmetric dielectric environments 
+          and lopsided carrier distribution in 2D FETs, to accurately describe 
+          the carrier scattering process [<a href="https://doi.org/10.7566/JPSJ.84.121011"><em>J. 
+          Phys. Soc. Jpn.</em>, 84, 121011 (2015)</a>] and the origin of the thinning-induced 
+          mobility degradation [ <a href="https://doi.org/10.1021/acs.nanolett.2c02023"><em>Nano 
+          Lett.</em>, 22, 6671(2022)</a>, <a href="https://doi.org/10.1021/nl4010783"><i>Nano 
+          Lett.</i> 13, 3546 (2013</a>)]. This understanding highlights the critical 
+          role of surface quality in electrical transport. A review on charge 
+          transport in 2D FETs can be found at <a href="https://doi.org/10.1039/C5CS00517E"><em>Chem. Soc. Rev.</em>, 45, 
+          118 (2016)</a>. </li>
+        <li class="liwithspace"> <b>Metal/Semiconductor contact. </b>We investigated 
+          the thickness scaling effect on the charge injection barrier at Au/MoS2 
+          interfaces and observed the thickness reduction induced crossover of 
+          electrical contact therein. [<a href="https://doi.org/10.1021/nn506138y"><em>ACS 
+          Nano</em>, 8, 12836 (2014)</a>]. In WS2 FETs with low-work-function 
+          metal ytterbium (Yb) as contacts, we clarified the presence of significant 
+          tunneling injection that invalidates the thermionic emission model for 
+          barrier estimation. [<a href="https://doi.org/10.1063/5.0095493"><em>Appl. Phys. Lett.</em>, 120, 
+          253505 (2022)</a>]. </li>
+        <li class="liwithspace"> <b>Thickness identification of 2D crystals.</b> 
+          We observed strong optical inteference and its effect on Raman intensity 
+          in the layered structures, which can be used to predict quantitative 
+          Raman spectra and to count thickness of atomic layers on insulating 
+          substrates. See <a href="https://doi.org/10.1021/nn3025173"><em>ACS Nano</em>, 6, 
+          7381 (2012)</a>.</li>
+      </ul>
+                <div class="d-flex">
+                    <div class="flex-fill">
+                        <img src="img/research/research_2_1.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_2_2.jpg" height=150>
+                    </div>
+                    <div class="flex-fill">
+                        <img src="img/research/research_2_3.jpg" height=150>
+                    </div>
+                </div>        
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			
+                <div class="sm-none-zj sidebar">
+                    <ul>
+                        <li ><a href="#research1" target="_self">Nanoelectronics</a></li>
+                        <li ><a href="#research2" target="_self">Device physics in FETs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--网页footer-->
+    <footer id="footer">  </footer>
+</body>
+</html>
